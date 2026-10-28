@@ -1,0 +1,189 @@
+[
+  {
+    "id": "clinica_odontologica",
+    "nome": "Clínica Odontológica",
+    "categoria": "Saúde & Estética",
+    "busca": "clínica odontológica",
+    "ticket_medio": "Alto",
+    "dor_principal": "Perdendo pacientes particulares para concorrentes que aparecem no topo do Google quando buscam 'implante', 'invisalign' ou 'dentista perto de mim'. Dependência de convênio.",
+    "pitch_sem_site": "Olá, doutor(a)! Notei que vocês têm uma excelente avaliação no Google Maps em {cidade}, mas ainda não possuem um site próprio oficial. Hoje, mais de 70% dos pacientes de implantes e estética dental pesquisam no Google antes de agendar e acabam indo para clínicas com sites profissionais com agendamento online. Criei uma prévia de como ficaria um site moderno para vocês atraírem mais pacientes particulares. Posso te enviar um print rápido?",
+    "pitch_so_linktree": "Olá! Vi o perfil de vocês e achei o trabalho impecável. Notei que no link da bio vocês usam apenas um agregador de links. Sabia que clínicas odontológicas que trocam o linktree por uma página própria de alta conversão aumentam em até 40% os agendamentos diretos no WhatsApp? Tenho um modelo exclusivo focado em Odontologia. Posso te mostrar?",
+    "pitch_so_instagram": "Olá! Estava pesquisando clínicas de referência em {cidade} e encontrei vocês no Instagram. O trabalho de vocês é de altíssimo nível, mas notei que quem pesquisa no Google por dentista na região muitas vezes não encontra vocês porque não há um site indexado. Vocês já pensaram em ter um site rápido e focado em captação no Google?"
+  },
+  {
+    "id": "clinica_estetica",
+    "nome": "Clínica de Estética",
+    "categoria": "Saúde & Estética",
+    "busca": "clínica de estética",
+    "ticket_medio": "Alto",
+    "dor_principal": "Procedimentos de alto valor (botox, harmonização, lasers) exigem autoridade e fotos de antes/depois organizadas que o Instagram sozinho não transmite com segurança médica.",
+    "pitch_sem_site": "Olá! Acompanho o crescimento da estética em {cidade} e vi que a clínica de vocês é muito bem recomendada. Porém, muitos clientes de procedimentos premium (botox, preenchimento, bioestimuladores) preferem pesquisar tratamentos detalhados no Google antes de tomar a decisão. Ter um site próprio passa muito mais autoridade e segurança. Posso te mandar uma proposta de layout personalizada?",
+    "pitch_so_linktree": "Olá! Tudo bem? Vi que o link de contato de vocês é um Linktree simples. Para uma clínica com procedimentos tão sofisticados, uma página exclusiva transmite muito mais exclusividade e fecha clientes de tíquete mais alto. Topa ver um modelo de landing page premium para clínicas?",
+    "pitch_so_instagram": "Olá! Seu feed no Instagram é lindo, mas vocês sabiam que milhares de pessoas em {cidade} pesquisam no Google por 'limpeza de pele', 'harmonização facial' e 'depilação a laser'? Sem site próprio, vocês estão deixando esses clientes para a concorrência. Posso te mostrar como resolver isso?"
+  },
+  {
+    "id": "consultorio_psicologia",
+    "nome": "Consultório de Psicologia",
+    "categoria": "Saúde Mental",
+    "busca": "consultório de psicologia",
+    "ticket_medio": "Recorrente",
+    "dor_principal": "Pacientes buscam abordagens específicas (TCC, psicanálise, infantil) e precisam de acolhimento e bio do profissional antes de agendar.",
+    "pitch_sem_site": "Olá, tudo bem? Encontrei o consultório de vocês no Google Maps em {cidade}. O cuidado com os pacientes é nítido nas avaliações! Como a busca por terapia online e presencial cresceu muito, ter um site profissional explicando a abordagem (TCC, psicanálise, etc.) e com botão de WhatsApp acolhedor dobra a taxa de agendamento de primeiras consultas. Gostaria de ver uma demonstração?",
+    "pitch_so_linktree": "Olá! Notei que no perfil de vocês há apenas um link de bio. Para psicólogos, uma página com apresentação pessoal, ética e botão direto gera muito mais confiança para quem está com receio de dar o primeiro passo. Posso compartilhar uma ideia de site com você?",
+    "pitch_so_instagram": "Olá! Parabéns pelo conteúdo no Instagram. Muitos pacientes que precisam de terapia não têm conta no Insta ou preferem discrição e pesquisam no Google. Um site simples e profissional garante que você seja encontrado por esse público."
+  },
+  {
+    "id": "consultorio_fisioterapia",
+    "nome": "Consultório de Fisioterapia",
+    "categoria": "Saúde & Reabilitação",
+    "busca": "consultório de fisioterapia",
+    "ticket_medio": "Médio-Alto",
+    "dor_principal": "Pessoas com dor aguda buscam no Google soluções imediatas (dor nas costas, quiropraxia, reabilitação esportiva).",
+    "pitch_sem_site": "Olá! Vi que vocês oferecem fisioterapia em {cidade}. Quando alguém trava a coluna ou tem uma lesão, o primeiro reflexo é pesquisar no Google por socorro imediato. Quem tem um site com botão de emergência / WhatsApp no topo capta esse paciente na hora. Vocês já pensaram em ter essa presença?",
+    "pitch_so_linktree": "Olá! Tudo bem? Vi que seu link de agendamento é básico. Uma página rápida de fisioterapia com lista de convênios/particular e sintomas tratados converte muito mais visitas em sessões fechadas. Quer dar uma olhada em um modelo?",
+    "pitch_so_instagram": "Olá! Excelente trabalho na fisioterapia! Sabia que 80% das buscas por reabilitação e dor crônica acontecem no Google e não no Instagram? Um site otimizado colocaria sua clínica no topo das pesquisas em {cidade}."
+  },
+  {
+    "id": "escritorio_advocacia",
+    "nome": "Escritório de Advocacia",
+    "categoria": "Jurídico",
+    "busca": "escritório de advocacia",
+    "ticket_medio": "Muito Alto",
+    "dor_principal": "Clientes jurídicos buscam credibilidade institucional absoluta e especialistas em sua área (trabalhista, previdenciário, família, tributário).",
+    "pitch_sem_site": "Prezado(a) Dr(a)., encontrei seu escritório em {cidade}. Na advocacia moderna, a sobriedade e autoridade institucional transmitidas por um site com certificado de segurança e apresentação das áreas de atuação são decisivas para captar causas de maior relevância. Preparei um modelo de portal jurídico sob medida. Posso apresentar?",
+    "pitch_so_linktree": "Prezado(a) colega, observei que o escritório utiliza um agregador genérico de links. Para o público jurídico, um site institucional próprio com conformidade às normas da OAB confere muito mais peso e valor de honorários. Gostaria de conhecer nossa solução?",
+    "pitch_so_instagram": "Olá, Dr(a). Seu posicionamento técnico no Instagram é excelente. Porém, clientes que buscam soluções urgentes para causas trabalhistas, cíveis ou empresariais em {cidade} recorrem diretamente ao Google. Um site bem posicionado garante essa captação qualificada."
+  },
+  {
+    "id": "escritorio_contabilidade",
+    "nome": "Escritório de Contabilidade",
+    "categoria": "Financeiro & Negócios",
+    "busca": "escritório de contabilidade",
+    "ticket_medio": "Recorrente Alto",
+    "dor_principal": "Empresários buscam contabilidade confiável no Google para abertura de empresa e migração de MEI/ME.",
+    "pitch_sem_site": "Olá! Encontrei sua contabilidade em {cidade}. Empreendedores que estão abrindo empresas ou insatisfeitos com a contabilidade atual sempre pesquisam no Google por soluções locais confiáveis. Um site com calculadora de custos ou proposta rápida gera leads qualificados toda semana. Quer ver um exemplo?",
+    "pitch_so_linktree": "Olá! Notei que vocês usam linktree para contato. Para uma contabilidade que gerencia patrimônios empresariais, ter domínio próprio (ex: suaempresa.com.br) passa uma imagem muito mais corporativa e segura. Posso te apresentar um formato moderno?",
+    "pitch_so_instagram": "Olá! Ótimas dicas contábeis no Instagram! Mas sabia que a maioria dos empresários em busca de migração de regime tributário ou abertura de CNPJ fecha com contabilidades que têm sites institucionais completos no Google?"
+  },
+  {
+    "id": "arquiteto",
+    "nome": "Arquiteto / Escritório de Arquitetura",
+    "categoria": "Construção & Design",
+    "busca": "arquiteto",
+    "ticket_medio": "Muito Alto",
+    "dor_principal": "Projetos arquitetônicos precisam de portfólio visual em alta resolução sem as compressões e bagunça do feed das redes.",
+    "pitch_sem_site": "Olá! Fiquei impressionado com a qualidade dos projetos arquitetônicos de vocês em {cidade}. Arquitetura de alto padrão exige um portfólio digital limpo, interativo e sofisticado, com tour pelos projetos. Criei um layout minimalista para arquitetos. Gostaria de dar uma olhada?",
+    "pitch_so_linktree": "Olá! Seus projetos merecem muito mais que um link padrão de rede social. Uma página com estética editorial valoriza o metro quadrado do seu projeto e atrai clientes dispostos a pagar o valor que sua assinatura merece. Posso te mostrar?",
+    "pitch_so_instagram": "Olá! O Instagram mostra bem os recortes, mas clientes de reformas completas e residências querem ver plantas, antes/depois e detalhes técnicos reunidos em um portfólio oficial. Já pensou em colocar seus projetos em destaque no Google?"
+  },
+  {
+    "id": "engenheiro_civil",
+    "nome": "Engenheiro Civil Autônomo",
+    "categoria": "Construção & Design",
+    "busca": "engenheiro civil autônomo",
+    "ticket_medio": "Muito Alto",
+    "dor_principal": "Laudos, reformas estruturais e ART exigem credibilidade técnica e localização rápida.",
+    "pitch_sem_site": "Olá, engenheiro! Encontrei sua atuação em {cidade}. Quem precisa de laudos técnicos, regularização de imóveis ou acompanhamento de obras procura profissionais com registro e site profissional com contato rápido. Posso te mostrar um modelo de página para captação de obras?",
+    "pitch_so_linktree": "Olá! Vi seu contato via link de bio. Que tal ter sua própria página profissional com seus serviços de engenharia, ARTs e formulário de orçamento instantâneo?",
+    "pitch_so_instagram": "Olá! Muito bacana o registro das suas obras. Um site profissional indexado no Google de {cidade} traria clientes diretos que precisam de projetos estruturais e laudos com urgência."
+  },
+  {
+    "id": "salao_de_beleza",
+    "nome": "Salão de Beleza",
+    "categoria": "Beleza & Estilo",
+    "busca": "salão de beleza",
+    "ticket_medio": "Médio",
+    "dor_principal": "Agendamentos bagunçados no WhatsApp e clientes novos que mudaram para o bairro e procuram no Google.",
+    "pitch_sem_site": "Olá, meninas do salão! Vi as avaliações no Google Maps e estão de parabéns! Porém, quando alguém se muda para {cidade} ou para o bairro de vocês e pesquisa 'salão de beleza próximo', se não encontrar um site com tabela de serviços e fotos, acaba indo em outro. Querem ver como um site simples facilitaria a atração de novas clientes?",
+    "pitch_so_linktree": "Olá! Adorei os penteados e colorações de vocês. Vi que vocês usam linktree para WhatsApp. Uma página própria com botão de agendamento e catálogo de mechas/unhas passa um ar muito mais boutique e luxuoso. Posso te mandar uma prévia?",
+    "pitch_so_instagram": "Olá! O feed de vocês é maravilhoso! Mas vocês sabiam que muitas mulheres que não estão navegando no Instagram buscam 'melhor salão em {cidade}' direto no Google? Um site oficial capta esse público fiel."
+  },
+  {
+    "id": "barbearia",
+    "nome": "Barbearia",
+    "categoria": "Beleza & Estilo",
+    "busca": "barbearia",
+    "ticket_medio": "Recorrente",
+    "dor_principal": "Homens querem ver fotos do ambiente, preço do corte/barba e link rápido para marcar sem enrolação.",
+    "pitch_sem_site": "E aí, pessoal da barbearia! Espaço animal o de vocês em {cidade}! Mas reparei que vocês não têm um site no perfil do Google Maps. Homem é prático: ele pesquisa no Google, quer ver o preço, o ambiente e clicar pra agendar na hora. Ter um site de 1 página dobra o fluxo de clientes novos da região. Quer ver um modelo pronto?",
+    "pitch_so_linktree": "Opa, tudo bem? Vi o link de vocês na bio. Ter um site próprio da barbearia com as fotos dos cortes, cerveja/sinuca e botão pro app de agendamento dá outra moral pra marca. Posso te mandar um exemplo?",
+    "pitch_so_instagram": "Fala galera! Os cortes de vocês são diferenciados demais. No Google Maps de {cidade}, quem busca 'barbearia perto de mim' e vê um site com fotos do espaço fecha na hora. Vamos colocar o de vocês no ar?"
+  },
+  {
+    "id": "estudio_tatuagem",
+    "nome": "Estúdio de Tatuagem",
+    "categoria": "Arte & Estilo",
+    "busca": "estúdio de tatuagem",
+    "ticket_medio": "Médio-Alto",
+    "dor_principal": "Clientes têm dúvidas de cicatrização, biossegurança, estilos (fine line, old school) e querem orçar de forma organizada.",
+    "pitch_sem_site": "Fala, pessoal do estúdio! O trampo dos tatuadores de vocês é insano! Mas reparei que vocês não têm um site oficial. Para tattoos autorais e projetos grandes, ter um site com galeria filtrada por estilo e formulário de orçamento tira a sobrecarga do direct do Insta e valoriza o trampo. Posso te mostrar um modelo?",
+    "pitch_so_linktree": "Salve! Vi o link de vocês. Que tal substituir o linktree por uma galeria dark super estilosa que valoriza os flashes e tatuagens dos artistas do estúdio? Tenho um modelo pronto incrível pra estúdio de tattoo.",
+    "pitch_so_instagram": "Salve! Arte incrível! Mas muita gente pesquisa no Google 'estúdio de tatuagem seguro e premiado em {cidade}'. Ter um site com depoimentos e cuidados pós-tattoo atrai aqueles clientes decididos a fechar projetos grandes."
+  },
+  {
+    "id": "studio_pilates",
+    "nome": "Studio de Pilates",
+    "categoria": "Saúde & Fitness",
+    "busca": "studio de pilates",
+    "ticket_medio": "Recorrente Alto",
+    "dor_principal": "Público 40+ e pessoas com recomendação médica de ortopedista pesquisam no Google por aulas experimentais.",
+    "pitch_sem_site": "Olá! Encontrei o studio de pilates de vocês em {cidade}. Sabiam que a maioria das pessoas que buscam pilates por recomendação médica (hérnia de disco, postura, gestantes) pesquisa no Google e não no Instagram? Um site acolhedor com convite para aula experimental gratuita lota os horários vagos de vocês. Quer ver como funciona?",
+    "pitch_so_linktree": "Olá! Vi que vocês usam linktree. Um site próprio com depoimentos de alunos que se livraram de dores gera uma conversão 3x maior para agendamento de aulas experimentais. Posso te apresentar um layout?",
+    "pitch_so_instagram": "Olá! Lindo studio! Quem procura pilates para tratar coluna geralmente procura no Google. Sem um site com localização clara e benefícios dos aparelhos, esse público acaba indo para outros studios da região."
+  },
+  {
+    "id": "personal_trainer",
+    "nome": "Personal Trainer",
+    "categoria": "Saúde & Fitness",
+    "busca": "personal trainer",
+    "ticket_medio": "Recorrente Alto",
+    "dor_principal": "Dificuldade de cobrar ticket alto (R$ 800 - R$ 2.500/mês) sem uma apresentação visual digna de consultoria de elite.",
+    "pitch_sem_site": "Fala mestre! Vi seus resultados como personal em {cidade}. Para cobrar uma mensalidade de elite e vender consultoria online, ter um site próprio com fotos de transformações, metodologia e depoimentos passa um ar 100% profissional e justifica um valor muito mais alto. Posso te mandar uma ideia de página?",
+    "pitch_so_linktree": "E aí! Notei seu linktree na bio. Personal de alta performance converte muito mais quando leva o aluno para uma landing page exclusiva com contagem de vagas restantes e botão de WhatsApp. Quer ver um exemplo prático?",
+    "pitch_so_instagram": "Fala! Seu físico e treinos no Insta são muito tops. Mas clientes executivos e de alto poder aquisitivo em {cidade} buscam personal de confiança no Google. Um site bem posicionado atrai alunos particulares que pagam mais."
+  },
+  {
+    "id": "academia",
+    "nome": "Academia",
+    "categoria": "Saúde & Fitness",
+    "busca": "academia",
+    "ticket_medio": "Volume / Recorrente",
+    "dor_principal": "Concorrência com redes gigantes (SmartFit, Bluefit); precisa destacar atendimento humanizado, modalidades e grade de aulas.",
+    "pitch_sem_site": "Olá, equipe da academia! Vi que vocês têm uma estrutura bem bacana em {cidade}. Para concorrer com as grandes franquias, ter um site com a grade horária das aulas (spinning, fitdance, musculação), fotos do espaço e matrícula online faz toda a diferença para o morador do bairro decidir treinar com vocês. Gostariam de ver uma demonstração?",
+    "pitch_so_linktree": "Olá! Vi que o contato de vocês é um linktree. Uma página oficial com tour 360°, tabela de planos e botão 'ganhe 1 dia grátis' converte muito mais visitas em novas matrículas. Posso te mostrar?",
+    "pitch_so_instagram": "Olá! A energia da academia de vocês é contagiante! No Google Maps, quem pesquisa por academia no bairro quer ver os planos e a grade de aulas rápido. Ter um site próprio coloca vocês à frente das academias vizinhas."
+  },
+  {
+    "id": "fotografo",
+    "nome": "Fotógrafo(a)",
+    "categoria": "Eventos & Mídia",
+    "busca": "fotógrafo",
+    "ticket_medio": "Médio-Alto",
+    "dor_principal": "Instagram comprime as fotos, estraga as cores e não permite galeria de clientes em alta definição.",
+    "pitch_sem_site": "Olá! Seu olhar na fotografia é impressionante! Mas como fotógrafo(a), você sabe como o Instagram comprime a nitidez e as cores dos ensaios. Ter um portfólio web próprio em alta definição, com separação de ensaios (casamentos, corporativo, gestante) eleva o valor do seu trabalho imediatamente. Posso te mandar um modelo de portfólio?",
+    "pitch_so_linktree": "Olá! O trabalho de vocês merece muito mais que um link de bio. Que tal uma galeria fotográfica imersiva, com tela cheia e formulário para solicitar orçamentos de datas para eventos em {cidade}?",
+    "pitch_so_instagram": "Olá! Fotos impecáveis! Noivas e famílias em {cidade} que contratam fotógrafos sempre procuram no Google por portfólios completos e pacotes. Com um site próprio você garante essas contratações de valor alto."
+  },
+  {
+    "id": "cerimonialista",
+    "nome": "Cerimonialista",
+    "categoria": "Eventos & Casamentos",
+    "busca": "cerimonialista",
+    "ticket_medio": "Muito Alto",
+    "dor_principal": "Eventos únicos (casamentos, 15 anos) exigem confiança inabalável de que tudo sairá perfeito; sem site, a noiva desconfia.",
+    "pitch_sem_site": "Olá! Encontrei o trabalho lindo de vocês como cerimonialista em {cidade}. Para um casamento ou evento dos sonhos, os contratantes buscam o máximo de segurança e profissionalismo. Um site institucional com cronograma de assessoria, fotos de eventos realizados e depoimentos de noivas fecha contratos muito mais rápido. Posso te mostrar uma ideia?",
+    "pitch_so_linktree": "Olá! Cerimoniais sofisticados exigem um posicionamento digital à altura. Trocar o linktree por um site elegante com paleta noiva e apresentação dos pacotes (completo, do dia, R.S.V.P.) transmite autoridade imediata. Vamos conversar?",
+    "pitch_so_instagram": "Olá! Lindo trabalho nos eventos! As noivas de {cidade} que estão planejando casamentos com 1 ano de antecedência pesquisam no Google por cerimonialistas recomendados. Um site no topo do Google traz noivas qualificadas todo mês."
+  },
+  {
+    "id": "assessoria_casamento",
+    "nome": "Assessoria de Casamento",
+    "categoria": "Eventos & Casamentos",
+    "busca": "assessoria de casamento",
+    "ticket_medio": "Muito Alto",
+    "dor_principal": "Noivos querem facilidade para baixar guia de noivos, ver checklist e solicitar reunião inicial.",
+    "pitch_sem_site": "Olá! Vi as celebrações emocionantes produzidas por vocês em {cidade}. Uma assessoria de casamento de alto nível precisa de uma página web onde os noivos possam solicitar a consultoria inicial e conhecer os fornecedores parceiros. Desenvolvi um formato de site focado em casamentos. Quer conhecer sem compromisso?",
+    "pitch_so_linktree": "Olá! Tudo bem? Uma noiva que vai investir de R$ 50 mil a R$ 200 mil no casamento quer ver um site impecável e sofisticado, não apenas um link de WhatsApp genérico. Que tal colocarmos um portal de noivos no ar para sua assessoria?",
+    "pitch_so_instagram": "Olá! Parabéns pelas produções de casamento! Sabiam que o Google é a ferramenta número 1 para casais pesquisarem assessoria completa em {cidade}? Ter um site garante que você receba pedidos de orçamento toda semana."
+  }
+]

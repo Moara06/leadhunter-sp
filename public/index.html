@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeadHunter SP - Prospecção de Empresas Sem Site</title>
+  <meta name="description" content="Encontre empresas e profissionais em São Paulo sem site ou apenas com Instagram e Linktree para vender criação de websites.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>LeadHunter <span>SP</span></h1>
+          <p class="tagline">Prospecção Ativa de Empresas Sem Site</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="btnExportCsv" class="btn btn-outline" title="Exportar dados formatados para Excel/CSV">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Exportar Planilha CSV
+        </button>
+        <button id="btnOpenConfig" class="btn btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+          Chave API Google
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Metric Highlights -->
+  <section class="metrics-grid">
+    <div class="metric-card glow-cyan">
+      <div class="metric-header">
+        <span class="metric-title">Total de Oportunidades</span>
+        <div class="metric-icon">🎯</div>
+      </div>
+      <div class="metric-value" id="statTotal">0</div>
+      <div class="metric-desc">Empresas qualificadas na base</div>
+    </div>
+
+    <div class="metric-card glow-purple">
+      <div class="metric-header">
+        <span class="metric-title">100% Sem Site</span>
+        <div class="metric-icon">🚫</div>
+      </div>
+      <div class="metric-value" id="statSemSite">0</div>
+      <div class="metric-desc">Maior urgência de contratação</div>
+    </div>
+
+    <div class="metric-card glow-amber">
+      <div class="metric-header">
+        <span class="metric-title">Só Instagram ou Linktree</span>
+        <div class="metric-icon">📱</div>
+      </div>
+      <div class="metric-value" id="statSoRede">0</div>
+      <div class="metric-desc">Fácil de converter com LP moderna</div>
+    </div>
+
+    <div class="metric-card glow-emerald">
+      <div class="metric-header">
+        <span class="metric-title">Funil de Fechamento</span>
+        <div class="metric-icon">💼</div>
+      </div>
+      <div class="metric-value" id="statContatados">0</div>
+      <div class="metric-desc"><span id="statFechados">0</span> vendas fechadas</div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="dashboard-main">
+    
+    <!-- Search Generator Sidebar / Panel -->
+    <aside class="search-panel">
+      <div class="panel-card">
+        <div class="panel-header">
+          <h2>Configurar Busca de Leads</h2>
+          <span class="badge badge-info" id="badgeEngine">Modo Gratuito</span>
+        </div>
+
+        <!-- Engine Toggle -->
+        <div class="form-group">
+          <label class="form-label">Mecanismo de Prospecção:</label>
+          <div class="engine-toggle-group">
+            <button type="button" class="btn-toggle active" id="btnEngineFree">
+              <span class="toggle-icon">⚡</span>
+              <div class="toggle-text">
+                <strong>Modo 100% Gratuito</strong>
+                <small>OpenStreetMap / Sem Custo</small>
+              </div>
+            </button>
+            <button type="button" class="btn-toggle" id="btnEngineGoogle">
+              <span class="toggle-icon">🌐</span>
+              <div class="toggle-text">
+                <strong>Google Places API</strong>
+                <small>Google Maps / Máx. Precisão</small>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        <!-- Presets Cidades -->
+        <div class="form-group">
+          <div class="label-row">
+            <label class="form-label">Cidades de São Paulo:</label>
+            <span class="selected-count" id="countCidades">0 selecionadas</span>
+          </div>
+          <div class="presets-row">
+            <button type="button" class="preset-pill active" data-preset="top10">Top 10 SP</button>
+            <button type="button" class="preset-pill" data-preset="grande_sp">Grande SP</button>
+            <button type="button" class="preset-pill" data-preset="campinas">Campinas & Região</button>
+            <button type="button" class="preset-pill" data-preset="litoral">Baixada/Litoral</button>
+            <button type="button" class="preset-pill" data-preset="interior">Interior Nobre</button>
+          </div>
+          <div class="chip-container" id="cidadesChips">
+            <!-- Chips renderizados via JS -->
+          </div>
+        </div>
+
+        <!-- Nichos -->
+        <div class="form-group">
+          <div class="label-row">
+            <label class="form-label">17 Nichos de Alto Valor:</label>
+            <span class="selected-count" id="countNichos">0 selecionados</span>
+          </div>
+          <div class="presets-row">
+            <button type="button" class="preset-pill" id="btnTodosNichos">Selecionar Todos</button>
+            <button type="button" class="preset-pill" id="btnNichosSaude">Saúde & Estética</button>
+            <button type="button" class="preset-pill" id="btnNichosPro">Corporativos</button>
+            <button type="button" class="preset-pill" id="btnLimparNichos">Limpar</button>
+          </div>
+          <div class="chip-container scrollable" id="nichosChips">
+            <!-- Chips de nichos renderizados via JS -->
+          </div>
+        </div>
+
+        <!-- Progress Box -->
+        <div class="progress-box hidden" id="progressBox">
+          <div class="progress-bar-wrap">
+            <div class="progress-bar-fill" id="progressBarFill"></div>
+          </div>
+          <div class="progress-info">
+            <span class="progress-status" id="progressStatus">Preparando busca...</span>
+            <span class="progress-percent" id="progressPercent">0%</span>
+          </div>
+        </div>
+
+        <!-- Search Action Button -->
+        <button id="btnDispararBusca" class="btn btn-primary btn-block">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Buscar Empresas Sem Site
+        </button>
+
+      </div>
+    </aside>
+
+    <!-- Main Results Area -->
+    <section class="results-area">
+
+      <!-- View Selector & Filter Bar -->
+      <div class="view-controls-bar">
+        <div class="view-tabs">
+          <button class="view-tab active" id="tabTableView">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="3" y1="9" x2="21" y2="9"></line>
+              <line x1="3" y1="15" x2="21" y2="15"></line>
+              <line x1="9" y1="3" x2="9" y2="21"></line>
+            </svg>
+            Tabela de Leads (<span id="tabCount">0</span>)
+          </button>
+          <button class="view-tab" id="tabKanbanView">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="5" height="18" rx="1"></rect>
+              <rect x="10" y="3" width="5" height="12" rx="1"></rect>
+              <rect x="17" y="3" width="5" height="15" rx="1"></rect>
+            </svg>
+            Funil de Vendas (Kanban)
+          </button>
+        </div>
+
+        <div class="filter-actions">
+          <div class="search-input-wrap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="filterText" placeholder="Filtrar por nome, nicho, cidade...">
+          </div>
+
+          <select id="filterSituacao" class="select-filter">
+            <option value="">Todas as Situações</option>
+            <option value="sem site">Sem Site</option>
+            <option value="só Linktree/Bio">Só Linktree / Bio</option>
+            <option value="só Instagram">Só Instagram</option>
+            <option value="só Facebook">Só Facebook</option>
+            <option value="só WhatsApp">Só WhatsApp</option>
+          </select>
+
+          <select id="filterStatus" class="select-filter">
+            <option value="">Todos os Status</option>
+            <option value="Novo / Não abordado">Novo</option>
+            <option value="Mensagem Enviada">Mensagem Enviada</option>
+            <option value="Em Conversa">Em Conversa</option>
+            <option value="Proposta Enviada">Proposta Enviada</option>
+            <option value="Fechado!">Fechado!</option>
+            <option value="Sem Interesse">Sem Interesse</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Table View -->
+      <div class="leads-table-container" id="containerTableView">
+        <table class="leads-table" id="leadsTable">
+          <thead>
+            <tr>
+              <th>Empresa & Nicho</th>
+              <th>Localização</th>
+              <th>Diagnóstico / Situação</th>
+              <th>Contato & WhatsApp</th>
+              <th>Status do Funil</th>
+              <th>Ações Rápidas</th>
+            </tr>
+          </thead>
+          <tbody id="leadsTableBody">
+            <!-- Linhas renderizadas via JS -->
+          </tbody>
+        </table>
+        
+        <div class="empty-state hidden" id="emptyState">
+          <div class="empty-icon">🔍</div>
+          <h3>Nenhum lead encontrado ainda</h3>
+          <p>Escolha as cidades e os nichos ao lado e clique em <strong>"Buscar Empresas Sem Site"</strong> para preencher sua lista de prospecção.</p>
+        </div>
+      </div>
+
+      <!-- Kanban Pipeline View -->
+      <div class="kanban-board hidden" id="containerKanbanView">
+        <div class="kanban-col" data-status="Novo / Não abordado">
+          <div class="kanban-col-header col-new">
+            <span>Novo / Não Abordado</span>
+            <span class="count-badge" id="countColNew">0</span>
+          </div>
+          <div class="kanban-cards" id="cardsNew"></div>
+        </div>
+
+        <div class="kanban-col" data-status="Mensagem Enviada">
+          <div class="kanban-col-header col-sent">
+            <span>Mensagem Enviada</span>
+            <span class="count-badge" id="countColSent">0</span>
+          </div>
+          <div class="kanban-cards" id="cardsSent"></div>
+        </div>
+
+        <div class="kanban-col" data-status="Em Conversa">
+          <div class="kanban-col-header col-chat">
+            <span>Em Conversa</span>
+            <span class="count-badge" id="countColChat">0</span>
+          </div>
+          <div class="kanban-cards" id="cardsChat"></div>
+        </div>
+
+        <div class="kanban-col" data-status="Proposta Enviada">
+          <div class="kanban-col-header col-proposal">
+            <span>Proposta Enviada</span>
+            <span class="count-badge" id="countColProposal">0</span>
+          </div>
+          <div class="kanban-cards" id="cardsProposal"></div>
+        </div>
+
+        <div class="kanban-col" data-status="Fechado!">
+          <div class="kanban-col-header col-won">
+            <span>Fechado 🎉</span>
+            <span class="count-badge" id="countColWon">0</span>
+          </div>
+          <div class="kanban-cards" id="cardsWon"></div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Pitch Modal -->
+  <div class="modal-backdrop hidden" id="pitchModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="badge badge-purple" id="modalNichoBadge">Clínica Odontológica</span>
+          <h3 id="modalEmpresaNome">Nome da Empresa</h3>
+          <p class="modal-sub" id="modalEmpresaLoc">Campinas, SP</p>
+        </div>
+        <button class="modal-close" id="btnCloseModal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="pitch-lead-alert" id="modalPainAlert">
+          <strong>Diagnóstico:</strong> Esta empresa perde clientes no Google para concorrentes que possuem site com agendamento online.
+        </div>
+
+        <div class="pitch-tabs">
+          <button class="pitch-tab active" data-pitch-type="consultivo">Abordagem Consultiva</button>
+          <button class="pitch-tab" data-pitch-type="amostra">Amostra Grátis / Demonstração</button>
+          <button class="pitch-tab" data-pitch-type="direto">Abordagem Direta & Rápida</button>
+        </div>
+
+        <div class="pitch-box">
+          <textarea id="pitchTextArea" rows="6" readonly></textarea>
+        </div>
+
+        <div class="pitch-actions">
+          <button class="btn btn-outline" id="btnCopiarPitch">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copiar Mensagem
+          </button>
+          <a href="#" target="_blank" class="btn btn-whatsapp" id="btnEnviarWhatsAppModal">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 2C6.495 2 2 6.495 2 12.031c0 1.944.557 3.76 1.523 5.302L2.08 22l4.821-1.404c1.488.887 3.23 1.435 5.13 1.435 5.536 0 10.031-4.495 10.031-10.031S17.567 2 12.031 2zm0 18.25c-1.635 0-3.15-.49-4.425-1.332l-.317-.208-3.044.887.896-2.955-.224-.336A8.187 8.187 0 0 1 3.781 12.03c0-4.55 3.7-8.25 8.25-8.25 4.55 0 8.25 3.7 8.25 8.25 0 4.55-3.7 8.25-8.25 8.25z"/>
+            </svg>
+            Abrir Conversa no WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google API Key Config Modal -->
+  <div class="modal-backdrop hidden" id="configModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3>Configurar Google Places API (New)</h3>
+        <button class="modal-close" id="btnCloseConfigModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-text">
+          O LeadHunter SP funciona <strong>100% de graça</strong> usando o OpenStreetMap. Caso você queira utilizar a API oficial do Google Maps para extrair avaliações e telefones nacionais formatados, insira sua chave abaixo:
+        </p>
+        <div class="form-group">
+          <label class="form-label" for="inputGoogleKey">Chave da Google Places API (New):</label>
+          <input type="password" id="inputGoogleKey" class="text-input" placeholder="AIzaSy...">
+          <small class="form-hint">Sua chave é mantida apenas no seu arquivo <code>.env</code> local.</small>
+        </div>
+        <div class="modal-actions-right">
+          <button class="btn btn-secondary" id="btnSalvarKeyLocal">Salvar Chave</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
